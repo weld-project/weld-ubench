@@ -1,0 +1,10 @@
+[package]
+name = "weld-ubench"
+version = "0.1.0"
+authors = ["Shoumik Palkar <shoumik.palkar@databricks.com>"]
+
+[dependencies]
+weld = { path = "../weld" }
+time = "0.1.40"
+rand = "0.5.5"
+fnv = "1.0.6"
